@@ -27,9 +27,14 @@ h1{
 	background-color: #1abc9c;
 	color: #fff;
 	border-radius: 0px;
+	border-color: #1abc9c;
 	font-size: 20px;
 }
 
+.btn:hover{
+	background-color: #13947b;
+	border-color: #13947b;
+}
 
 .sandok{
 	text-align: center;
