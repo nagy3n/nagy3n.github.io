@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="margin-top:18px;"><img src="assets/img/logo.png" style="width:135px;"></div>
+    <div class="container" style="margin-top:4px;">
+        <div class="row">
+            <div class="col center">
+                <h1>Hello,</h1>
+                <h4 class="who">We are Sandok.</h4>
+                <p class="des">We deliver all your grocery needs to your door step in a box where ever you are.</p>
+                <div class="text-center" style="padding-top:34px;">
+                    <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">Request Early Access</button>
+                </div>
+            </div>
+            <div class="col"><img src="assets/img/box.png" style="width:100%;"></div>
+        </div>
+    </div>
+    <div class="container"><img src="assets/img/how.png" style="width:100%;"></div>
+    <div class="container" style="padding-top:97px;">
+        <div class="row">
+            <div class="col center">
+                <h1>big variety of products</h1>
+            </div>
+            <div class="col"><img src="assets/img/food.png" style="width:100%;"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col"><img src="assets/img/laptop.png" style="width:100%;"></div>
+            <div class="col center">
+                <h1>simple website for better experiance</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col center">
+                <h1>cheaper delivery</h1>
+            </div>
+            <div class="col"><img src="assets/img/truck.png" style="width:100%;"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#myModal">Request Early Access</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark" style="margin-top:67px;">
+        <footer>
+            <p class="copyright" style="font-size:25px;">info@sandok-eg.com</p>
+        </footer>
+    </div>
+
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-body">
+
+
+          <h3 class="sandok">Sandok.</h3>
+
+          <form id="login-form" [ngClass]="{'invisible': !this.active }">
+            <div class="form-group">
+                <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="NAME" value="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="phone" id="phone" tabindex="1" class="form-control" placeholder="PHONE NUMBER" value="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="EMAIL" value="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="city" id="city" tabindex="1" class="form-control" placeholder="CITY" value="">
+            </div>
+            <div class="form-group">
+                <input type="text" name="neighbourhood" id="neighbourhood" tabindex="1" class="form-control" placeholder="NEIGHBOURHOOD" value="">
+            </div>
+            
+            <div class="butt form-group">
+                <button type="submit" class="btn sign">SIGN IN</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+
+
+
+      </div>
+      
+    </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+</body>
+
+</html>

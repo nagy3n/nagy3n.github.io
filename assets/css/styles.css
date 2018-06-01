@@ -1,0 +1,58 @@
+body{
+	font-family: 'Montserrat';
+}
+
+h1{
+	text-transform: uppercase;
+	color: #1abc9c;
+	font-weight: bold;
+}
+
+.who{
+	color: #7d7d7d;
+	font-weight: bold;
+	margin-top:-15px;
+}
+
+.des{
+	color: #555555;
+	font-size: 18px;
+}
+
+.center{
+	margin: auto;
+}
+
+.btn{
+	background-color: #1abc9c;
+	color: #fff;
+	border-radius: 0px;
+	font-size: 20px;
+}
+
+
+.sandok{
+	text-align: center;
+	color: silver;
+}
+
+input{
+	background: transparent;
+    border: none;
+    border-bottom: 2px solid silver;
+    border-radius: 0px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    -webkit-box-shadow: none !important;
+  	-moz-box-shadow: none !important;
+  	box-shadow: none !important;
+}
+
+.form-group{
+	padding: 8px 20px;
+}
+
+.butt{
+	text-align: center;
+	margin: 0px;
+}
